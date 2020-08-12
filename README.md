@@ -1,5 +1,48 @@
 # Networking
 
+## What is a network?
+
+- A network consists of two or more computers that are linked in order to share resources or allow electronic
+communication
+
+Two very common types of networks include:
+- Local Area Network
+- Wide Area Netowrk
+
+#### Local Area Network
+-  Network confined to a relatively small area, generally limited to a geographic area such as a school or a building
+- Examples of LAN include the Ethernet
+
+
+#### Wide Area Network
+
+- a WAN connects LANs to each other, usually across multiple locations
+- The internet is an example of a worldwide public WAN
+
+
+## What is an IP?
+- Stands for internet Protocol 
+
+
+## IP Addresses
+
+- 
+
+
+## IPv4 vs IPv6
+
+## IP And Binary
+
+## Class Networks
+
+## CIDR
+
+## Monolith Architecture
+
+## N-Tier Architecture
+
+
+
 
 ## Virtual Private Cloud
 
@@ -8,14 +51,14 @@
 > Navigate [HERE](VPC-Setup.md) on setting up a VPC using AWS
 
 
-## What is inside a 2 tier VPC
+### What is inside a 2 tier VPC
 
 1. Web Tier
 2. Database Tier
 
 ![](images/VPC-diagram.png)
 
-### Why do we do this
+### Relation Between VPCs And Networks
 
 - We create subnets within our VPC, they give different access rules and place resources in different containers
 - E.g You would not want your database with contains secret information to be put in a public subnet where there is 
@@ -43,9 +86,6 @@ the desired internet location and thus it is hard to figure out the original loc
 
 - These multiple layers of encyption could also be referred to as a *Tor Network*
 
-
-
-## Monolithic Architecture
 
 
 
