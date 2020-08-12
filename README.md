@@ -103,7 +103,19 @@ an AWS region
 
 ## Creating A Private And Public Subnet On AWS
 
+1) We can the Subnets services on the left side bar
 
+![](images/)
+
+
+2) First we will create our public subnet
+
+![](images/Create-Public-Subnet.png)
+
+
+3) Now for our private subnet
+
+![](images/Create-Public-Subnet.png)
 
 
 ### Inbound and Outbound Rules
