@@ -59,6 +59,47 @@ an AWS region
 
 
 
+### Internet Gateways (IGWs)
+
+- An optional virtual router that you can add to your VPC to enable direct connectivity to the internet, allowing communication
+between your VPC and the outside world.
+
+- For an EC2 instance to talk to the outside world, the instance must be located on a public subnet that has a route table 
+rule that specifies the IGW as the target
+
+- Internet can then travel through the IGW into the VPC and then into the route table, from here it can travel to the public
+subnet where the EC2 is located
+
+
+
+### Network Access Control List (NACLs)
+
+- Virtual Network-level firewalls that are associated to each and every subnet
+
+- Help control both ingress and egress (incoming, outbound) traffic moving in and out of your VPC and between your subnets.
+
+### Security Groups (SGs)
+
+- Firewall at the instance level
+
+- Controls the traffic entering and leaving our instance
+
+
+### Difference Between Security Groups and Network ACLs
+
+- Security Groups are a firewall of an Instance
+- Network ACLs are a firewall of a subnet
+- Together they act as multiple layers of security
+- **Note that if we do not allow traffic at the subnet level but allow it at the instance level, it would not pass the
+the first layer of security and thus would not reach our instance**
+
+
+### Route Tables
+
+- A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet
+or gateway is directed.
+
+- 
 
 
 ## Creating a VPC on AWS
